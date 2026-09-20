@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main(int argc, char **argv) {
-  printf("Krish\nchandel.kr@northeastern.edu\n");
+  for (int i = 0; i < 20; i = i+1) {
+    printf("Krish\n\chandel.kr@northeastern.edu\n");
+  }
 
   return 0;
 }
