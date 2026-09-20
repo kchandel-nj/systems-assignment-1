@@ -54,29 +54,15 @@ kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework
 kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1/a1-work-main$
 
 using mkdir:
-kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1$ mkdir .gitignore
-kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1$ ls -la
-total 104
-drwxrwxrwx 1 kchandel kchandel  4096 Sep 19 21:03 .
-drwxrwxrwx 1 kchandel kchandel  4096 Sep 18 19:08 ..
-drwxrwxrwx 1 kchandel kchandel  4096 Sep 18 19:08 .git
-drwxrwxrwx 1 kchandel kchandel  4096 Sep 19 21:03 .gitignore
-drwxrwxrwx 1 kchandel kchandel  4096 Sep 11 21:45 a1-work-main
--rwxrwxrwx 1 kchandel kchandel 94717 Sep 18 19:29 a1-work-main.zip
--rwxrwxrwx 1 kchandel kchandel  6078 Sep 19 21:02 output.txt
-kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1$
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$ mkdir testing
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$ cd testing
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads/testing$
 
 using rmdir:
-kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1$ rmdir .gitignore
-kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1$ ls -la
-total 104
-drwxrwxrwx 1 kchandel kchandel  4096 Sep 19 21:06 .
-drwxrwxrwx 1 kchandel kchandel  4096 Sep 18 19:08 ..
-drwxrwxrwx 1 kchandel kchandel  4096 Sep 18 19:08 .git
-drwxrwxrwx 1 kchandel kchandel  4096 Sep 11 21:45 a1-work-main
--rwxrwxrwx 1 kchandel kchandel 94717 Sep 18 19:29 a1-work-main.zip
--rwxrwxrwx 1 kchandel kchandel  6631 Sep 19 21:06 output.txt
-kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1$
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$ rmdir testing
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$ ls -d */
+TEdit-4.16.1/  TUF-GAMING-X570-PLUS-WIFI-ASUS-5021/  Untitled/  memtest86-usb/
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$
 
 using cd:
 kchandel@KrishLaptop:/mnt/c/Users/tgerm$ cd Downloads/
@@ -93,6 +79,11 @@ kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework
 /mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1
 kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1$ ls
 a1-work-main.zip  output.txt
+
+using touch:
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads/testing$ touch numbers.txt
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads/testing$ ls
+numbers.txt
 
 using man:
 kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1$ man grep
@@ -127,6 +118,22 @@ OPTIONS
               Output the version number of grep and exit.
  Manual page grep(1) line 1 (press h for help or q to quit)
 
+using ps:
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads/testing$ ps
+    PID TTY          TIME CMD
+    286 pts/0    00:00:00 bash
+   1544 pts/0    00:00:00 ps
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads/testing$ cd ..
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$ ps
+    PID TTY          TIME CMD
+    286 pts/0    00:00:00 bash
+   1545 pts/0    00:00:00 ps
+
+using echo:
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads/testing$ grep -q "grape" numbers.txt && echo "The word exists in the f
+ile!" || echo "Word not found."
+The word exists in the file!
+
 using whoami:
 kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1/a1-work-main/a1-work-main$ git status
 On branch main
@@ -141,6 +148,24 @@ no changes added to commit (use "git add" and/or "git commit -a")
 kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1/a1-work-main/a1-work-main$ whoami
 kchandel
 
+using sort:
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads/testing$ cat numbers.txt
+apple
+carrot
+banana
+durian
+orange
+fruit
+grape
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads/testing$ sort numbers.txt
+apple
+banana
+carrot
+durian
+fruit
+grape
+orange
+
 using cat:
 kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1/a1-work-main/a1-work-main$ cat hello.c
 #include <stdio.h>
@@ -152,78 +177,26 @@ int main(int argc, char **argv) {
 }
 
 using nl:
-kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1$ nl output.txt
-     1  using ls:
-     2  kchandel@KrishLaptop:/mnt/c/Users/tgerm$ ls
-     3   -1.14-windows.xml
-     4   AppData
-     5  'Application Data'
-     6  'Calibre Library'
-     7   Contacts
-     8   Cookies
-     9   Desktop
-    10   Documents
-    11   Downloads
-    12   Favorites
-    13   IdeaProjects
-    14   IdeaSnapshots
-    15   Links
-    16  'Local Settings'
-    17   MCreatorWorkspaces
-    18  'Muse Hub'
-    19   Music
-    20  'My Documents'
-    21   NTUSER.DAT
-    22   NTUSER.DAT{6cce391d-d4b4-11ef-af31-fd46ac924231}.TM.blf
-    23   NTUSER.DAT{6cce391d-d4b4-11ef-af31-fd46ac924231}.TM.blf.cnpf
-    24   NTUSER.DAT{6cce391d-d4b4-11ef-af31-fd46ac924231}.TMContainer00000000000000000001.regtrans-ms
-    25   NTUSER.DAT{6cce391d-d4b4-11ef-af31-fd46ac924231}.TMContainer00000000000000000001.regtrans-ms.cnpf
-    26   NTUSER.DAT{6cce391d-d4b4-11ef-af31-fd46ac924231}.TMContainer00000000000000000002.regtrans-ms
-    27   NTUSER.DAT{6cce391d-d4b4-11ef-af31-fd46ac924231}.TMContainer00000000000000000002.regtrans-ms.cnpf
-    28   NetHood
-    29   OneDrive
-    30   Pictures
-    31   PrintHood
-    32   Recent
-    33  'Saved Games'
-    34   Searches
-    35   SendTo
-    36   Spitfire
-    37  'Start Menu'
-    38   Templates
-    39   VS_Code_Projects
-    40   Videos
-    41  'VirtualBox VMs'
-    42   battery-report.html
-    43   ntuser.dat.LOG1
-    44   ntuser.dat.LOG2
-    45   ntuser.ini
-    46   source
-    47   worldpainter_2.24.0.exe
-    48
-    49  using mkdir:
-    50  kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$ mkdir "Test"
-    51  kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$ ls -d */
-    52  TEdit-4.16.1/  TUF-GAMING-X570-PLUS-WIFI-ASUS-5021/  Test/  Untitled/  memtest86-usb/
-    53
-    54  using rmdir:
-    55  kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$ rmdir "Test"
-    56  kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$ ls -d */
-    57  TEdit-4.16.1/  TUF-GAMING-X570-PLUS-WIFI-ASUS-5021/  Untitled/  memtest86-usb/
-    58  kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$
-    59
-    60  using cd:
-    61  kchandel@KrishLaptop:/mnt/c/Users/tgerm$ cd Downloads/
-    62  kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$
-    63
-    64  using mv:
-    65  kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$ mv a1-work-main.zip ..
-    66  kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads$ cd ..
-    67  kchandel@KrishLaptop:/mnt/c/Users/tgerm$ ls *.zip
-    68  a1-work-main.zip
-    69  kchandel@KrishLaptop:/mnt/c/Users/tgerm$ mv a1-work-main.zip VS_Code_Projects/C/Systems\ Work/Homework/systems-assignment-1/
-    70  kchandel@KrishLaptop:/mnt/c/Users/tgerm$ cd VS_Code_Projects/C/Systems\ Work/Homework/systems-assignment-1/
-    71  kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1$ pwd
-    72  /mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1
-    73  kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1$ ls
-    74  a1-work-main.zip  output.txt
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads/testing$ nl numbers.txt
+     1  apple
+     2  carrot
+     3  banana
+     4  durian
+     5  orange
+     6  fruit
+     7  grape
+
+using cut:
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads/testing$ cut -c 1 numbers.txt
+a
+c
+b
+d
+o
+f
+g
+
+using grep:
+kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads/testing$ grep -q "grape" numbers.txt && echo "The word exists in the f
+ile!" || echo "Word not found."
+The word exists in the file!
