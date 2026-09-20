@@ -80,16 +80,6 @@ kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework
 kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1$ ls
 a1-work-main.zip  output.txt
 
-using cp:
-kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1/a1-work-main/a1-work-main$ touch outputcp.txt
-kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1/a1-work-main/a1-work-main$ cp output.txt outputcp.text
-kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1/a1-work-main/a1-work-main$ cat outputcp.txt
-kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1/a1-work-main/a1-work-main$ ls
-ExternalResources  README.md  hello.c  hello1  hello2  output.txt  outputcp.text  outputcp.txt
-kchandel@KrishLaptop:/mnt/c/Users/tgerm/VS_Code_Projects/C/Systems Work/Homework/systems-assignment-1/a1-work-main/a1-work-main$ cat outputcp.text
-# Simply copy and paste the output from your terminal here!
-	...
-
 using touch:
 kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads/testing$ touch numbers.txt
 kchandel@KrishLaptop:/mnt/c/Users/tgerm/Downloads/testing$ ls
